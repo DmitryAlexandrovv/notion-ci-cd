@@ -15,6 +15,8 @@ const Home = () => {
         user = useSelector((state) => state.user),
         dispatch = useDispatch();
 
+    alert('test');
+
     const onSave = (data) => {
         dispatch(setLoading(true));
         firebaseService
