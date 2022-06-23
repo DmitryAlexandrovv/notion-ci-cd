@@ -9,7 +9,7 @@
         "prettier": "prettier --write .",
         "eject": "react-scripts eject",
         "docker-build": "docker build -t notion-ci-cd:dev .",
-        "docker-run": "docker run -it -p 3000:3000 notion-ci-cd:dev"
+        "docker-run": "docker run -it -p 3000:80 notion-ci-cd:dev"
     },
     "dependencies": {
         "@testing-library/jest-dom": "^5.11.4",
