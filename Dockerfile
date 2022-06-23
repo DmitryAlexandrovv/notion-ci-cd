@@ -4,6 +4,7 @@ WORKDIR /app
 
 COPY package.json ./
 COPY yarn.lock ./
+COPY .env ./
 RUN yarn install --silent
 RUN yarn global add react-scripts@4.0.3 --silent
 
